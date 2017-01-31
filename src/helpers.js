@@ -1,3 +1,4 @@
+import React from 'react';
 import uuid from 'node-uuid';
 import {
     range,
@@ -32,7 +33,7 @@ export function generateStringFakes(numberOfFakes = 10) {
 export function generateJSXFakes(numberOfFakes = 10) {
     return range(numberOfFakes).map(() => {
         const id = uuid();
-        return <div key={id}>{id}</div>;
+        return React.createElement('div', { key: id }, id);
     });
 }
 

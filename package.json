@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "npm run eslint",
-    "build": "node_modules/.bin/babel src/index.js -o index.js",
+    "build": "node_modules/.bin/webpack",
     "eslint": "node_modules/.bin/eslint src/**.js extensions/**.js",
     "test": "echo 'Success!'"
   },
@@ -18,17 +18,21 @@
     "lodash": "4.17.4",
     "node-uuid": "1.4.7",
     "react": "15.4.2",
-    "sinon": "2.0.0-pre.4",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sinon": "v2.0.0-pre.5",
     "sinon-chai": "2.8.0",
     "sinon-test": "1.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "eslint": "^3.14.1",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "webpack": "^2.2.1"
   }
 }

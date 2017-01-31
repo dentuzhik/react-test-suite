@@ -574,9 +574,7 @@ export function extendTestSuite({ assertFunctions }) {
     });
 }
 
-export const generateJSXFakes = generateJSXFakes;
-export const generateStringFakes = generateStringFakes;
-export const generateNumberFakes = generateNumberFakes;
+export { generateJSXFakes, generateStringFakes, generateNumberFakes } from './helpers';
 
 extendTestSuite({
     assertFunctions: {
