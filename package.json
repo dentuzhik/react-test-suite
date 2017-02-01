@@ -1,6 +1,6 @@
 {
   "name": "react-test-suite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library, which provides a nice way to test react components using ES6",
   "main": "build",
   "scripts": {
