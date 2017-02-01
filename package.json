@@ -7,7 +7,7 @@
     "lint": "npm run eslint",
     "build": "node_modules/.bin/webpack",
     "eslint": "node_modules/.bin/eslint src/**.js extensions/**.js",
-    "test": "echo 'Success!'"
+    "test": "node_modules/.bin/mocha tests/index.js"
   },
   "author": "dentuzhik@gmail.com",
   "license": "MIT",
@@ -33,6 +33,7 @@
     "babel-preset-stage-0": "^6.22.0",
     "eslint": "^3.14.1",
     "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
     "webpack": "^2.2.1"
   }
 }
