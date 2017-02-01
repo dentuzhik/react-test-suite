@@ -22,7 +22,7 @@
     "react-dom": "^15.4.2",
     "sinon": "v2.0.0-pre.5",
     "sinon-chai": "2.8.0",
-    "sinon-test": "1.0.0"
+    "sinon-test": "github:sinonjs/sinon-test#412590da1f2e6ea5b4618c6101c521d998612cfb"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
